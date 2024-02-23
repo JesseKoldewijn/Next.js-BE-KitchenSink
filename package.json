@@ -1,0 +1,55 @@
+{
+  "name": "next-be-kitchensink",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@t3-oss/env-nextjs": "^0.9.2",
+    "@tanstack/react-query": "^4.36.1",
+    "@trpc/client": "^10.45.1",
+    "@trpc/next": "^10.45.1",
+    "@trpc/react-query": "^10.45.1",
+    "@trpc/server": "^10.45.1",
+    "fastify": "^4.26.1",
+    "hono": "^4.0.5",
+    "js-cookie": "^3.0.5",
+    "next": "14.1.1-canary.70",
+    "react": "0.0.0-experimental-98b8359f6-20240223",
+    "react-dom": "0.0.0-experimental-98b8359f6-20240223",
+    "react-icons": "^5.0.1",
+    "server-only": "^0.0.1",
+    "superjson": "^2.2.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/eslint": "^8.56.3",
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20.11.20",
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0",
+    "mini-svg-data-uri": "^1.4.4",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.3.3"
+  },
+  "volta": {
+    "node": "20.11.1"
+  }
+}
